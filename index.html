@@ -5,17 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/images/favicon.ico" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon" />
     <!--CSS-->
-    <link rel="stylesheet" href="./src/css/styles.css">
-
+    <link rel="stylesheet" href="./src/./assets/css/styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap" rel="stylesheet">
     <title>Projeto Mário Bros - Dev em Dobro</title>
 </head>
 
 <body>
+    <div class="fundo-video">
+        <video class="video" autopalay loop muted>
+
+            <source src="./src/./assets/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
     <header class="cabecalho">
         <a href="./index.html">
-            <img class="logo" src="./src/images/logo-chapeu-mario.png" alt="Logomarca">
+            <img class="logo" src="./src/./assets/images/logo-chapeu-mario.png" alt="Logomarca">
         </a>
         <nav class="menu">
             <ul>
@@ -26,7 +36,7 @@
     </header>
     <main class="container">
         <div class="informacoes">
-            <img class="imagem-titulo" src="./src/images/titulo.png" alt="Titulo Super Mario">
+            <img class="imagem-titulo" src="./src/./assets/images/titulo.png" alt="Titulo Super Mario">
             <p class="descricao">
                 Lorem ipsum dolor
                 sit amet consectetur
@@ -40,7 +50,7 @@
             </p>
             <button class="botao-trailer">Veja o Trailer</button>
         </div>
-        <img class="mario" src="./src/images/super-mario-chars.png" alt="">
+        <img class="mario" src="./src/./assets/images/super-mario-chars.png" alt="">
     </main>
 </body>
 
